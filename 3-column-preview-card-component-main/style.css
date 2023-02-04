@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.maincontainer{
+   background-color: rgba(23, 23, 248, 0.164);
+    color: white;
+    max-width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 55%;
+    height: 58%;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+.card1{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 15px 0 0 15px;
+    
+}
+.card2{
+    background-color: hsl(184, 100%, 22%);
+}
+.card3{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 15px 15px 0;
+}
+.imagem {
+    padding: 28px;
+}
+.texto p{
+    padding-top: 20px;
+    color: #ffffffb7;font-family:'Lexend Deca', sans-serif;
+}
+.texto{
+    padding: 0px 30px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.botao{
+   display: flex;
+   justify-content: center;
+   padding-top: 38px;
+}
+.botao a{
+    background-color: #fff;
+    padding: 10px 60px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.4s;
+    font-family: 'Big Shoulders Display', cursive;
+    
+}
+.botao a:hover{
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.514);
+    color: rgb(255, 208, 0);
+}
+.btn1{
+    color: hsl(31, 77%, 52%);
+}
+.btn2{
+    color: hsl(184, 100%, 22%);
+}
+.btn3{
+    color:  hsl(179, 100%, 13%);
+}
+@media (max-width: 1000px) {
+    .container {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .botao{
+        padding: 30px;
+    }
+    .card1 {
+        border-radius: 10px 10px 0 0;
+        
+    }
+    .card2 {
+        border-radius: 0;
+    }
+    .card3 {
+        border-radius: 0 0 10px 10px;
+        
+    }
+    
+    
+}
